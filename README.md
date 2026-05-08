@@ -1,9 +1,9 @@
-### Mental Health Support System
+# Mental Health Support System
 
 ## 📌 Project Title
 Mental Health Support System for Students
 
-# ❗ Problem Description
+#3 ❗ Problem Description
 Mental health issues among students are increasing rapidly due to academic pressure, personal problems, social anxiety, depression, stress, and other emotional challenges. Many students hesitate to seek help because of fear, stigma, lack of privacy, or limited access to counselors.
 
 Traditional counseling systems are often inefficient and difficult to access quickly. Students may feel uncomfortable discussing their issues openly or may not know how to contact professional support services.
@@ -11,7 +11,7 @@ Traditional counseling systems are often inefficient and difficult to access qui
 As a result, many students suffer silently without receiving proper mental health assistance.
 
 
-# 💡 Proposed Solution
+## 💡 Proposed Solution
 The MERN Mental Health Support System is a web-based platform developed to provide students with a secure, simple, and private way to request counseling support.
 
 The system allows:
@@ -28,19 +28,19 @@ The platform is developed using the MERN stack:
 
 This solution improves accessibility, privacy, and management of mental health support services.
 
-# ✨ Features
-## Student Features
+## ✨ Features
+### Student Features
 - Create student accounts
 - Submit counseling requests
 - View request status
 
-## Counselor Features
+### Counselor Features
 - Add counselor information
 - View all counseling requests
 - Assign counselors to requests
 - Update request status
 
-## System Features
+### System Features
 - REST API implementation
 - CRUD operations
 - MongoDB database integration
@@ -49,31 +49,31 @@ This solution improves accessibility, privacy, and management of mental health s
 - API testing with Postman
 
 
-# 🛠️ Technologies Used
-## Frontend
+## 🛠️ Technologies Used
+### Frontend
 - React.js
 - Axios
 - HTML
 - CSS
 - JavaScript
 
-## Backend
+### Backend
 - Node.js
 - Express.js
 
-## Database
+### Database
 - MongoDB
 - Mongoose
 
-## Tools & Platforms
+### Tools & Platforms
 - VS Code
 - Postman
 - GitHub
 
 
-# 🗂️ Project Structure
+## 🗂️ Project Structure
 
-mern-mental-health-support-system/
+mental-health-support-system/
 
 ├── backend/
 │
@@ -124,21 +124,21 @@ mern-mental-health-support-system/
 └── README.md
 
 
-### 🧠 Database Collections
-# 1. Users Collection
+## 🧠 Database Collections
+### 1. Users Collection
 Stores student details.
 -Fields
 -name
 -email
 
-# 2. Counselors Collection
+### 2. Counselors Collection
 Stores counselor/admin information.
 -Fields
 -name
 -email
 -specialization
 
-# 3. Requests Collection
+### 3. Requests Collection
 Stores counseling requests.
 -Fields
 -userId
@@ -147,31 +147,31 @@ Stores counseling requests.
 -status
 
 
-# 🔗 API Endpoints
-## 👤 User APIs
+## 🔗 API Endpoints
+### 👤 User APIs
 - POST `/api/users` → Create user  
 - GET `/api/users` → Get all users  
 
-## 👨‍⚕️ Counselor APIs
+### 👨‍⚕️ Counselor APIs
 - POST `/api/counselors` → Create counselor  
 - GET `/api/counselors` → Get all counselors  
 
-## 📝 Request APIs
+### 📝 Request APIs
 - POST `/api/requests` → Create request  
 - GET `/api/requests` → Get all requests  
 - PUT `/api/requests/:id` → Update request  
 - DELETE `/api/requests/:id` → Delete request  
 
 
-# ⚙️ Setup Instructions
-## Step 1 — Clone Repository
+## ⚙️ Setup Instructions
+### Step 1 — Clone Repository
 git clone YOUR_GITHUB_REPOSITORY_LINK
 
-## Step 2 — Install Backend Dependencies
+### Step 2 — Install Backend Dependencies
 cd backend  
 npm install  
 
-## Step 3 — Create Environment Variables
+### Step 3 — Create Environment Variables
 Create `.env` file in backend folder:
 
 PORT=5000  
@@ -179,25 +179,25 @@ MONGO_URI=mongodb://127.0.0.1:27017/mentalHealthDB
 
 
 
-# ▶️ How to Run the Project
-## Start MongoDB
+## ▶️ How to Run the Project
+### Start MongoDB
 Make sure MongoDB is running.
-## Run Backend
+### Run Backend
 cd backend  
 node index.js  
-## Run Frontend
+### Run Frontend
 cd frontend  
 npm start  
 
 Frontend runs at:
 http://localhost:5000  
 
-# 🧪 API Testing
+### 🧪 API Testing
 API testing was done using Postman.  
 Postman collection is available in:
 docs/postman/
 
-# 📸 Screenshots
+### 📸 Screenshots
 Project screenshots are available in:
 docs/screenshots/
 Includes:
@@ -206,7 +206,7 @@ Includes:
 - Folder structure  
 - Frontend UI
   
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 JWT Authentication
 Role-based access control
 Real-time chat system
@@ -215,14 +215,13 @@ Email notifications
 AI-based emotional analysis
 Mobile responsive UI
 
-### ❤️ Conclusion
+## ❤️ Conclusion
 
 The MERN Mental Health Support System provides a secure and accessible platform for students to seek counseling support. The project demonstrates full-stack web development concepts including REST APIs, MongoDB integration, CRUD operations, MVC architecture, and frontend-backend communication using the MERN stack.
 
-### 👩‍💻 Developed By
+## 👩‍💻 Developed By
 Harshani Sandunika Ranasingha
 2022/ICT/78
 
-👩‍💻 Developed By
 
 Harshani Sandunika Ranasingha
