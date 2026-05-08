@@ -3,7 +3,7 @@
 ## 📌 Project Title
 Mental Health Support System for Students
 
-#3 ❗ Problem Description
+##  Problem Description
 Mental health issues among students are increasing rapidly due to academic pressure, personal problems, social anxiety, depression, stress, and other emotional challenges. Many students hesitate to seek help because of fear, stigma, lack of privacy, or limited access to counselors.
 
 Traditional counseling systems are often inefficient and difficult to access quickly. Students may feel uncomfortable discussing their issues openly or may not know how to contact professional support services.
