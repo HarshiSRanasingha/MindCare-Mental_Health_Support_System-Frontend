@@ -75,53 +75,42 @@ This solution improves accessibility, privacy, and management of mental health s
 
 mental-health-support-system/
 
-├── backend/
-│
-│   ├── db/
-│   │   └── db.js
-│   │
-│   ├── models/
-│   │   ├── userModel.js
-│   │   ├── counselorModel.js
-│   │   └── requestModel.js
-│   │
-│   ├── controllers/
-│   │   ├── userController.js
-│   │   ├── counselorController.js
-│   │   └── requestController.js
-│   │
-│   ├── routes/
-│   │   ├── userRoutes.js
-│   │   ├── counselorRoutes.js
-│   │   └── requestRoutes.js
-│   │
-│   ├── .env
-│   ├── .gitignore
-│   ├── index.js
-│   └── package.json
-│
-├── frontend/
-│
-│   ├── public/
-│   │
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   └── index.js
-│   │
-│   └── package.json
-│
-├── docs/
-│
-│   ├── screenshots/
-│   │
-│   ├── postman/
-│   │   └── mental-health-api.json
-│   │
-│   └── presentation/
-│
-└── README.md
+-backend
+  -db
+     -db.js
+  -models
+     -userModel.js
+     -counselorModel.js
+     -requestModel.j
+  -controllers
+     -userController.js
+     -counselorController.js
+     -requestController.js
+  -routes
+     -userRoutes.js
+     -counselorRoutes.js
+     -requestRoutes.js
+   -.env
+   -.gitignore
+   -index.js
+   -package.json
+
+-frontend
+   -public
+   -src
+      -components
+      -pages
+      -App.js
+      -index.js
+  -package.json
+
+-docs
+   -screenshots
+   -postman
+       -mental-health-api.json
+   -presentation
+
+README.md
 
 
 ## 🧠 Database Collections
