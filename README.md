@@ -133,26 +133,6 @@ Frontend/
 |   \--- icons.svg 🖼️
 +--- README.md 📖
 +--- ScreenShots/ 📸
-|   +--- breath exercise page.png
-|   +--- Counselor account.png
-|   +--- Counselor Dashboard 2.png
-|   +--- Counselor Dashboard.png
-|   +--- Counselor list page.png
-|   +--- Landing page (Home page)4.png
-|   +--- Landing page (Home).png
-|   +--- Landing Page (Home)2.png
-|   +--- Landing page (Home)3.png
-|   +--- Login Page.png
-|   +--- Screenshot 2026-05-16 122043.png
-|   +--- Self Theraphy hub.png
-|   +--- Self therapy hub 2.png
-|   +--- Self Therapy Hub 3.png
-|   +--- Sign up (Register) page for Counselor.png
-|   +--- Sign up (Register) page for student.png
-|   +--- Sttings bar.png
-|   +--- Student account page.png
-|   +--- student Dashboard.png
-|   \--- Student list page.png
 +--- src/ 💻
 |   +--- api/ 📡
 |   |   +--- authApi.js
